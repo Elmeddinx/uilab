@@ -1,0 +1,224 @@
+@import "./variables";
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url('../fonts/Roboto-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url('../fonts/Roboto-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('../#{$icomoon-font-path}/#{$icomoon-font-family}.eot?o98sf0');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?o98sf0#iefix') format('embedded-opentype'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?o98sf0') format('truetype'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.woff?o98sf0') format('woff'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.svg?o98sf0##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bullhorn {
+  &:before {
+    content: $icon-bullhorn; 
+  }
+}
+.icon-cart-settings {
+  &:before {
+    content: $icon-cart-settings;
+  }
+}
+.icon-palet {
+  &:before {
+    content: $icon-palet;
+  }
+}
+.icon-computer {
+  &:before {
+    content: $icon-computer; 
+  }
+}
+.icon-cancel {
+  &:before {
+    content: $icon-cancel; 
+  }
+}
+.icon-desktop {
+  &:before {
+    content: $icon-desktop; 
+  }
+}
+.icon-download {
+  &:before {
+    content: $icon-download; 
+  }
+}
+.icon-edit {
+  &:before {
+    content: $icon-edit; 
+  }
+}
+.icon-eye {
+  &:before {
+    content: $icon-eye; 
+  }
+}
+.icon-globes {
+  &:before {
+    content: $icon-globes; 
+  }
+}
+.icon-left {
+  &:before {
+    content: $icon-left; 
+  }
+}
+.icon-link {
+  &:before {
+    content: $icon-link; 
+  }
+}
+.icon-mail {
+  &:before {
+    content: $icon-mail; 
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone; 
+  }
+}
+.icon-placeholder {
+  &:before {
+    content: $icon-placeholder; 
+  }
+}
+.icon-responsive1 {
+  &:before {
+    content: $icon-responsive1; 
+  }
+}
+.icon-responsive {
+  &:before {
+    content: $icon-responsive; 
+  }
+}
+.icon-right {
+  &:before {
+    content: $icon-right; 
+  }
+}
+.icon-seo {
+  &:before {
+    content: $icon-seo; 
+  }
+}
+.icon-settings {
+  &:before {
+    content: $icon-settings; 
+  }
+}
+.icon-shopping {
+  &:before {
+    content: $icon-shopping; 
+  }
+}
+.icon-smartphone {
+  &:before {
+    content: $icon-smartphone; 
+  }
+}
+.icon-support {
+  &:before {
+    content: $icon-support; 
+  }
+}
+.icon-telephone {
+  &:before {
+    content: $icon-telephone; 
+  }
+}
+.icon-user {
+  &:before {
+    content: $icon-user; 
+  }
+}
+.icon-users-cog-solid {
+  &:before {
+    content: $icon-users-cog-solid; 
+  }
+}
+.icon-users {
+  &:before {
+    content: $icon-users; 
+  }
+}
+.icon-www {
+  &:before {
+    content: $icon-www; 
+  }
+}
+.icon-facebook1 {
+  &:before {
+    content: $icon-facebook1; 
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook; 
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-behance {
+  &:before {
+    content: $icon-behance; 
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin; 
+  }
+}
+.icon-linkedin2 {
+  &:before {
+    content: $icon-linkedin2; 
+  }
+}

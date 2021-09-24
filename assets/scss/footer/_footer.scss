@@ -1,0 +1,99 @@
+footer {
+    background: #212121;
+    margin-top: 110px;
+    .container {
+        padding: 109px 0 76px 0;
+        .row {
+            row-gap: 40px;
+            h5 {
+                font-size: 26px;
+                color: #fff;
+                opacity: 0.9;
+            }
+            hr {
+                width: 300px;
+                height: 0.5px;
+                border: none;
+                background-color: #c4c4c4;
+                position: relative;
+                overflow: visible;
+                display: flex;
+                align-items: center;
+                opacity: 1;
+                &::after {
+                    content: "";
+                    width: 175px;
+                    height: 1px;
+                    border: none;
+                    background-color: #3badee;
+                    position: absolute;
+                }
+            }
+            .col_1 {
+                .img-fluid {
+                    width: 158px;
+                    margin: 33px 0 19px 0;
+                }
+                p {
+                    color: #bdbdbd;
+                    font-size: 15px;
+                }
+                .footer_social_icons {
+                    display: flex;
+                    align-items: center;
+                    a {
+                        text-decoration: none;
+                        width: 45px !important;
+                        height: 45px !important;
+                        border-radius: 50%;
+                        border: 1px solid #bdbdbd;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 15px;
+                        i {
+                            color: #fff;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+            .col_2 {
+                ul {
+                    li {
+                        a {
+                            font-size: 20px;
+                            color: #bdbdbd;
+                            &:active {
+                                color: $sc_primary_color;
+                            }
+                            &:hover {
+                                color: $sc_primary_color;
+                            }
+                        }
+                    }
+                }
+            }
+            .col_3 {
+                ul {
+                    li {
+                        font-size: 19px;
+                        color: #bdbdbd;
+                        i {
+                            font-size: 21px;
+                            margin-right: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container-fluid {
+        padding: 37px 0;
+        border-top: 1px solid #494949;
+        p {
+            font-size: 19px;
+            color: #bdbdbd;
+        }
+    }
+}

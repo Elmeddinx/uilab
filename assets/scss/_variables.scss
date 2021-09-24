@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto-Regular;
+    overflow-x: hidden;
+}
+$main_color : #423F8D;
+$primary_color : #66A3FC;
+$sc_primary_color : #3BADEE;
+$secondary_color : #A3A2B1;
+$thirdary_color : #E44D26;
+.bg-primary {
+    background-color: $primary_color !important;
+}
+.bg-sc-primary {
+    background-color: $sc_primary_color !important;
+}
+.btn-primary {
+    background-color: $primary_color !important;
+}
+.btn-sc-primary {
+    background-color: $sc-primary_color !important;
+}
+.btn-secondary {
+    background-color: $secondary_color !important;
+}
+.bg-secondary {
+    background-color: $secondary_color !important;
+}
+.text-secondary {
+    color: $secondary_color;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-bullhorn: "\e91b";
+$icon-cart-settings: "\e919";
+$icon-palet: "\e91a";
+$icon-computer: "\e900";
+$icon-cancel: "\e901";
+$icon-desktop: "\e902";
+$icon-download: "\e903";
+$icon-edit: "\e904";
+$icon-eye: "\e905";
+$icon-globes: "\e906";
+$icon-left: "\e907";
+$icon-link: "\e908";
+$icon-mail: "\e909";
+$icon-phone: "\e90a";
+$icon-placeholder: "\e90b";
+$icon-responsive1: "\e90c";
+$icon-responsive: "\e90d";
+$icon-right: "\e90e";
+$icon-seo: "\e90f";
+$icon-settings: "\e910";
+$icon-shopping: "\e911";
+$icon-smartphone: "\e912";
+$icon-support: "\e913";
+$icon-telephone: "\e914";
+$icon-user: "\e915";
+$icon-users-cog-solid: "\e916";
+$icon-users: "\e917";
+$icon-www: "\e918";
+$icon-facebook1: "\ea90";
+$icon-facebook: "\ea91";
+$icon-instagram: "\ea92";
+$icon-twitter: "\ea96";
+$icon-behance: "\eaa8";
+$icon-linkedin: "\eac9";
+$icon-linkedin2: "\eaca";
+
+

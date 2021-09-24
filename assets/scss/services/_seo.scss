@@ -1,0 +1,69 @@
+.services_nav {
+    background: #fff !important;
+    a {
+        color: #6F8BA4 !important;
+    }
+    .dropdown-menu {
+        a {
+            color: #fff !important;
+            &:hover {
+                color: #656363 !important;
+            }
+        }
+    }
+    .mobile_logo {
+        display: block;
+        margin-right: 110px;
+        img {
+            width: 95px;
+        }
+    }
+    .nav-social {
+        i {
+            color: #828282 !important;
+        }
+    }
+}
+.service_support_header {
+    min-height: 400px !important;
+    background-image: url('../img/services_img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        .container {
+            h1 {
+                color: #fff;
+                font-size: 55px;
+                font-weight: 400;
+            }
+            .breadcrumb {
+                background: #fff;
+                width: fit-content;
+                padding: 19px 21px;
+                border-radius: 0px 23px 23px 0px;
+                a {
+                    color: #3B566E !important;
+                    text-decoration: none;
+                }
+            }
+        }
+}
+.service_support_section {
+    padding-top: 127px;
+    h2 {
+        font-size: 28px;
+        color: #3B566E;
+        font-weight: 500;
+    }
+    h4 {
+        font-size: 22px;
+        font-weight: 400;
+        color: #6F8BA4;
+        margin: 55px 0;
+    }
+    p {
+        font-size: 22px;
+        font-weight: 700;
+        color: #6F8BA4;
+    }
+}

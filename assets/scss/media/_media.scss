@@ -1,0 +1,110 @@
+@media (max-width: 1382px) {
+    .home_section_3 {
+        .container {
+            .row {
+                .second_card {
+                    .card {
+                        h4 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .desktop_nav {
+        display: none;
+    }
+    .mobile_logo {
+        width: 228px;
+        height: 116px;
+        img {
+            width: 100%;
+        }
+    }
+    .services_nav {
+        .mobile_logo {
+            height: 48px;
+        }
+    }
+    .service_web_header {
+        margin-top: 0;
+    }
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+    .navbar-toggler {
+        outline: none !important;
+    }
+    header {
+        margin-top: 50px;
+        .header_el1,
+        .header_el2 {
+            display: none;
+        }
+        img {
+            margin-top: 25px;
+        }
+    }
+    .home_section_1 {
+        .row {
+            flex-direction: column-reverse;
+            .section_img {
+                margin-top: 25px;
+            }
+        }
+        .section_circle_1 {
+            bottom: 38% !important;
+        }
+        .container {
+            .section_circle_2 {
+                right: -15% !important;
+                top: -5% !important;
+            }
+        }
+    }
+    .home_section_3 {
+        .home_sc_3_bg_2 {
+            top: 1% !important;
+        }
+        .home_sc_3_bg_3 {
+            bottom: 1% !important;
+        }
+        .container {
+            .title_p {
+                width: 100% !important;
+            }
+        }
+    }
+    .home_banner {
+        .home_banner_pattern_1 {
+            opacity: 0.25;
+        }
+        .home_banner_pattern_2 {
+            opacity: 0.25;
+        }
+    }
+
+    .home_section_7 {
+        .card {
+            padding: 90px 25px !important;
+        }
+    }
+    footer {
+        .container {
+            padding: 109px 25px 76px 25px;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .mobile_logo {
+        display: none;
+    }
+    .navbar-collapse {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
